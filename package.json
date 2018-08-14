@@ -1,0 +1,23 @@
+{
+    "name": "imba-server-boilerplate",
+    "version": "0.0.1",
+    "description": "boilerplate for server-side projects in imba",
+    "main": "source",
+    "scripts": {
+        "release": "imbac --output release --target node source",
+        "start": "imba source/index.imba",
+        "dev": "nodemon --watch source --ext imba --exec \"imba source/index.imba\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:altteo/imba-server-boilerplate.git"
+    },
+    "author": "Fedor Leschinsky",
+    "license": "MIT",
+    "devDependencies": {
+        "imba": "^1.3.3",
+        "nodemon": "^1.17.5"
+    },
+    "dependencies": {
+    }
+}
